@@ -1,0 +1,58 @@
+{
+    "outliers": {
+        "age": {
+            "Q1": 31.0,
+            "Q3": 51.0,
+            "IQR": 20.0,
+            "lower_bound": 1.0,
+            "upper_bound": 81.0,
+            "outlier_count": 5,
+            "outlier_pct": 0.52
+        },
+        "salary": {
+            "Q1": 51213.56170906686,
+            "Q3": 68521.41951058713,
+            "IQR": 17307.857801520273,
+            "lower_bound": 25251.77500678645,
+            "upper_bound": 94483.20621286755,
+            "outlier_count": 25,
+            "outlier_pct": 2.58
+        },
+        "years_experience": {
+            "Q1": 10.0,
+            "Q3": 24.0,
+            "IQR": 14.0,
+            "lower_bound": -11.0,
+            "upper_bound": 45.0,
+            "outlier_count": 0,
+            "outlier_pct": 0.0
+        },
+        "performance_score": {
+            "Q1": 3.0,
+            "Q3": 7.6,
+            "IQR": 4.6,
+            "lower_bound": -3.8999999999999995,
+            "upper_bound": 14.5,
+            "outlier_count": 0,
+            "outlier_pct": 0.0
+        },
+        "hours_worked_per_week": {
+            "Q1": 37.45871901118652,
+            "Q3": 46.82228033047707,
+            "IQR": 9.363561319290554,
+            "lower_bound": 23.413377032250686,
+            "upper_bound": 60.8676223094129,
+            "outlier_count": 32,
+            "outlier_pct": 3.3
+        },
+        "satisfaction_score": {
+            "Q1": 3.625,
+            "Q3": 7.7,
+            "IQR": 4.075,
+            "lower_bound": -2.4875000000000007,
+            "upper_bound": 13.8125,
+            "outlier_count": 0,
+            "outlier_pct": 0.0
+        }
+    }
+}

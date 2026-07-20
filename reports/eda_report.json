@@ -1,0 +1,51 @@
+{
+    "eda": {
+        "shape": [
+            1000,
+            10
+        ],
+        "dtypes": {
+            "employee_id": "int64",
+            "age": "float64",
+            "department": "object",
+            "salary": "float64",
+            "years_experience": "float64",
+            "performance_score": "float64",
+            "hours_worked_per_week": "float64",
+            "education_level": "object",
+            "satisfaction_score": "float64",
+            "attrition": "int64"
+        },
+        "duplicates": 0,
+        "missing_total": 600
+    },
+    "missing_values": {
+        "years_experience": {
+            "method": "KNN",
+            "missing_pct": 22.0
+        },
+        "salary": {
+            "method": "group_wise (department)",
+            "missing_pct": 12.0
+        },
+        "satisfaction_score": {
+            "method": "median",
+            "missing_pct": 10.0,
+            "skewness": -0.082
+        },
+        "hours_worked_per_week": {
+            "method": "median",
+            "missing_pct": 8.0,
+            "skewness": 1.77
+        },
+        "education_level": {
+            "method": "mode",
+            "missing_pct": 5.0,
+            "filled_with": "Bachelor"
+        },
+        "performance_score": {
+            "method": "drop_rows",
+            "missing_pct": 3.0
+        }
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "feature_engineering": {
+        "original_columns": [
+            "employee_id",
+            "age",
+            "department",
+            "salary",
+            "years_experience",
+            "performance_score",
+            "hours_worked_per_week",
+            "education_level",
+            "satisfaction_score",
+            "attrition"
+        ],
+        "features_added": [
+            "salary_per_experience",
+            "workload_score",
+            "experience_ratio",
+            "perf_satisfaction_index"
+        ],
+        "dropped_collinear": [
+            "satisfaction_score",
+            "years_experience"
+        ],
+        "final_shape": [
+            970,
+            18
+        ],
+        "final_columns": [
+            "employee_id",
+            "age",
+            "salary",
+            "performance_score",
+            "hours_worked_per_week",
+            "attrition",
+            "salary_per_experience",
+            "workload_score",
+            "experience_ratio",
+            "perf_satisfaction_index",
+            "department_Finance",
+            "department_HR",
+            "department_Marketing",
+            "department_Operations",
+            "department_Sales",
+            "education_level_High School",
+            "education_level_Master",
+            "education_level_PhD"
+        ]
+    },
+    "validation_passed": false
+}
